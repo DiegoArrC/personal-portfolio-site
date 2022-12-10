@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.Header {
+  background-color: navy;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+footer {
+  text-align: left;
+}
+
+.Github-Repos {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
