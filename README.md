@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have written a personal portfolio website using ReactJS, a frontend framework that is built on JavaScript. It uses NodeJS as the backend for package development and has a local test server run through the command “npm start”. This will open up a local development server at http://localhost:3000/, along with a network version of the development build based on the IP Address.  
+My intention for creating this small web app was to both create a website that can showcase a portion of my knowledge with software and web app development, along with learning how to interact with an external API within React.
 
-## Available Scripts
+[Software Demo Video](http://youtube.link.goes.here)
 
-In the project directory, you can run:
+# Web Pages
 
-### `npm start`
+This web app contains only a singular page that has both static and dynamically populated data. The first portion of the site includes fetching a particular users generated repositories, with the default being a population of my personal list of repositories. The fetch makes a call to GitHub’s API services, which includes being able to access a list of repositories from any particular user and maps them into individual cards with some of the general data about each individual repository. This includes data such as the owner of the repository and their profile image, the name of the repository, which language it mainly uses, and any associated topics put onto the project. This was adjusted to allow calls to any user’s repositories, with certain edge cases handled, such as no user being specified or a user not existing.
+After the GitHub Cards section, there is a personal resume which has been embedded in for download, with some animation styling in the background.
+# Development Environment
+* ReactJS 18.2.0
+* NodeJS 16.14.2
+* NPM 8.19.2
+* Visual Studio Code 1.74.0
+* React Hooks
+* React DOM
+* GitHub REST API
+* Gitub Pages
+* GH-Pages NPM Package
+* JavaScript
+* CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Useful Websites
+* [GitHub REST API]( https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user)
+* [React GH-Pages Setup] (https://github.com/gitname/react-gh-pages)
+* [React Hooks (useEffect)]( https://reactjs.org/docs/hooks-effect.html)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Future Work
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Expand the amount of content present on the site
+* Improve styling of elements within the site
+* Fix certain styling edge cases
