@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-site/static/css/main.7e9dcd00.css",
-    "main.js": "/personal-portfolio-site/static/js/main.ab42b84a.js",
+    "main.css": "/personal-portfolio-site/static/css/main.14f7e827.css",
+    "main.js": "/personal-portfolio-site/static/js/main.78056029.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio-site/static/js/787.fb771931.chunk.js",
+    "static/media/ArroyoCastaneda_Resume.pdf": "/personal-portfolio-site/static/media/ArroyoCastaneda_Resume.63cd41ca50bc0cfd29e1.pdf",
+    "static/media/ArroyoCastaneda_Resume.png": "/personal-portfolio-site/static/media/ArroyoCastaneda_Resume.e3eec81c638cd6a18b64.png",
     "index.html": "/personal-portfolio-site/index.html",
-    "main.7e9dcd00.css.map": "/personal-portfolio-site/static/css/main.7e9dcd00.css.map",
-    "main.ab42b84a.js.map": "/personal-portfolio-site/static/js/main.ab42b84a.js.map",
+    "main.14f7e827.css.map": "/personal-portfolio-site/static/css/main.14f7e827.css.map",
+    "main.78056029.js.map": "/personal-portfolio-site/static/js/main.78056029.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio-site/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e9dcd00.css",
-    "static/js/main.ab42b84a.js"
+    "static/css/main.14f7e827.css",
+    "static/js/main.78056029.js"
   ]
 }
