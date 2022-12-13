@@ -3,7 +3,8 @@
 I have written a personal portfolio website using ReactJS, a frontend framework that is built on JavaScript. It uses NodeJS as the backend for package development and has a local test server run through the command “npm start”. This will open up a local development server at http://localhost:3000/, along with a network version of the development build based on the IP Address.  
 My intention for creating this small web app was to both create a website that can showcase a portion of my knowledge with software and web app development, along with learning how to interact with an external API within React.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](http://youtube.link.goes.here)  
+[Website Page](https://diegoarrc.github.io/personal-portfolio-site/)
 
 # Web Pages
 
