@@ -24,9 +24,9 @@ After the GitHub Cards section, there is a personal resume which has been embedd
 * CSS
 
 # Useful Websites
-* [GitHub REST API]( https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user)
-* [React GH-Pages Setup] (https://github.com/gitname/react-gh-pages)
-* [React Hooks (useEffect)]( https://reactjs.org/docs/hooks-effect.html)
+* [GitHub REST API]( https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user)  
+* [React GH-Pages Setup](https://github.com/gitname/react-gh-pages)
+* [React Hooks (useEffect)](https://reactjs.org/docs/hooks-effect.html)
 
 # Future Work
 
